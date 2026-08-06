@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -B -c \"import sqlite3; print\\('sqlite3', sqlite3.sqlite_version\\)\")",
+      "Bash(python -B -c ' *)",
+      "Bash(PYTHONIOENCODING=utf-8 python -B -c \"import news_scraper, activity_log, article_filter; print\\('imports OK'\\)\")"
+    ]
+  }
+}
